@@ -7,6 +7,8 @@ distance. It then calculates the deviation between the actual fare and the predi
 
 Output files from the execution of Task 4 are stored under the directory `models/fare_model`. The Python script `task4.py` contains the code utized for Task 4.
 
-Furthermore, the image
+Furthermore, here are two images with screeshots taken during the execution of the script `task4.py`:
 
-![hello text](https://github.com/acintron-a/HO-L8-AC/assets/task4-1.png)
+![hello text](https://github.com/acintron-a/HO-L8-AC/raw/main/assets/task4-1.png)
+
+![hello text](https://github.com/acintron-a/HO-L8-AC/raw/main/assets/task4-2.png)
