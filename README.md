@@ -24,4 +24,5 @@ Moreover, we include below two screeshots taken while the script `task5.py` was 
 
 ![Output from task 5](https://github.com/acintron-a/HO-L8-AC/raw/main/assets/task5-1.png)
 
+
 ![Printed output in task 5](https://github.com/acintron-a/HO-L8-AC/raw/main/assets/task5-2.png)
