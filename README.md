@@ -12,3 +12,8 @@ Furthermore, here are two images with screeshots taken during the execution of t
 ![hello text](https://github.com/acintron-a/HO-L8-AC/raw/main/assets/task4-1.png)
 
 ![hello text](https://github.com/acintron-a/HO-L8-AC/raw/main/assets/task4-2.png)
+
+### Task 5
+Task 5 also involved static model training and inference under simulated streaming. Here is a summary:
+1. **Offline Model Training:** The training data from `training-dataset.csv` is first aggregated into 5-minute windows, calculating the average fare for each. Instead of using a raw time stamp, we perform feature engineering, creating cyclical features like `hour_of_day` and `minute_of_hour` from the window's start time. A linear regression model is trained on these features and saved.
+2. **Real-Time Inference:** The live stream is aggregated using the same 5-minute windowing logic. The same `hour_of_day` and `minute_of_hour` features are created for each window. The pre-trained model is then used to predict the avg_fare for that time window.
